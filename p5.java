@@ -5,7 +5,7 @@ class p5
 	int n=1,p,c=0,k=0;
 	while(n>0&&k<=0)
 	{
-		for(int i=1;i<=10;i++)
+		for(int i=1;i<=20;i++)
 		{
 			p=n%i;
 			c++;
@@ -14,7 +14,7 @@ class p5
 				c=0;
 				break;
 			}
-			if(c==10)
+			if(c==20)
 			{
 				k++;
 				System.out.println(n);
