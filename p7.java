@@ -4,8 +4,7 @@ class p7{
 	int n=2,p,c=0,k=0;
 	while(n>0)
 	{
-		int d=n/2;
-		for(int i=2;i<=d;i++)
+		for(int i=2;i<=n;i++)
 		{
 			p=n%i;
 			if(p==0)
@@ -13,7 +12,7 @@ class p7{
 				c++;
 			}
 		}
-		if(c==0)
+		if(c==1)
 		{
 			k++;
 			if(k==10001)
